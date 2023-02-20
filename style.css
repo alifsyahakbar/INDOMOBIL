@@ -1,0 +1,22 @@
+li a.active {
+  background-color: #555;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: black;
+}
+
+.container p{
+	margin-left: 10px;
+}
+
+.card{
+	margin-bottom: 10px;
+}
+.row .card:hover{
+	box-shadow: 2px 2px 2px red;
+	transform: (1.02);
+}
+
